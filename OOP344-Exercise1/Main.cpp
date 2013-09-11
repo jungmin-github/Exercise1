@@ -5,13 +5,13 @@
 int main()
    {
    Manager man;
-
    Employee dan(1, "Dan");
    Employee mike(2, "Mike");
    Employee alex(3, "Alex");
    Employee sarah(4, "Sarah");
 
-   dan.setBoss(man);
+
+   dan.setBoss(&man);
    mike.setBoss(man);
    alex.setBoss(man);
    sarah.setBoss(man);
