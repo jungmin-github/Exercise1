@@ -1,52 +1,19 @@
-﻿Build started 2013-09-11 오전 1:41:01.
+﻿Build started 2013-09-11 오전 2:03:05.
      1>Project "C:\Users\mistysnake\Documents\GitHub\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Main.cpp Manager.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Manager.cpp
          Manager.cpp
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(11): error C2027: use of undefined type 'Employee'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(1) : see declaration of 'Employee'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(11): error C2227: left of '->getID' must point to class/struct/union/generic type
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(1) : see declaration of 'Employee'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(11): error C2227: left of '->getHours' must point to class/struct/union/generic type
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(12): error C2027: use of undefined type 'Employee'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(1) : see declaration of 'Employee'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(12): error C2227: left of '->getName' must point to class/struct/union/generic type
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(13): error C2027: use of undefined type 'Employee'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(1) : see declaration of 'Employee'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.cpp(13): error C2227: left of '->getHours' must point to class/struct/union/generic type
-         Main.cpp
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(7): error C2248: 'Manager::Manager' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(9) : see declaration of 'Manager::Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(14): error C2664: 'Employee::setBoss' : cannot convert parameter 1 from 'Manager' to 'Manager *'
-                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(15): error C2664: 'Employee::setBoss' : cannot convert parameter 1 from 'Manager' to 'Manager *'
-                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(16): error C2664: 'Employee::setBoss' : cannot convert parameter 1 from 'Manager' to 'Manager *'
-                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(17): error C2664: 'Employee::setBoss' : cannot convert parameter 1 from 'Manager' to 'Manager *'
-                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(35): error C2248: 'Manager::report' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(13) : see declaration of 'Manager::report'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(47): error C2248: 'Manager::report' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(13) : see declaration of 'Manager::report'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(58): error C2248: 'Manager::report' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(13) : see declaration of 'Manager::report'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\main.cpp(59): error C2248: 'Manager::report' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(13) : see declaration of 'Manager::report'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
          Employee.cpp
      1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\employee.cpp(10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
-     1>c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\employee.cpp(36): error C2248: 'Manager::getWorkerHours' : cannot access private member declared in class 'Manager'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(11) : see declaration of 'Manager::getWorkerHours'
-                 c:\users\mistysnake\documents\github\exercise1\oop344-exercise1\manager.h(4) : see declaration of 'Manager'
          Generating Code...
-     1>Done Building Project "C:\Users\mistysnake\Documents\GitHub\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" (Build target(s)) -- FAILED.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mistysnake\Documents\GitHub\Exercise1\Debug\OOP344-Exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mistysnake\Documents\GitHub\Exercise1\Debug\OOP344-Exercise1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mistysnake\Documents\GitHub\Exercise1\Debug\OOP344-Exercise1.lib" /MACHINE:X86 Debug\Employee.obj
+         Debug\Main.obj
+         Debug\Manager.obj
+         OOP344-Exercise1.vcxproj -> C:\Users\mistysnake\Documents\GitHub\Exercise1\Debug\OOP344-Exercise1.exe
+     1>Done Building Project "C:\Users\mistysnake\Documents\GitHub\Exercise1\OOP344-Exercise1\OOP344-Exercise1.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:08.11
+Time Elapsed 00:00:06.74

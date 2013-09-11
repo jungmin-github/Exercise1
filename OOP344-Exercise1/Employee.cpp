@@ -47,3 +47,6 @@ int Employee::getID()
    {
    return ID;
    }
+	char* Employee::getName(){ //added a getName method that were missing.
+		return Employee::name;
+	}

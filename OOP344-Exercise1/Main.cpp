@@ -11,10 +11,10 @@ int main()
    Employee sarah(4, "Sarah");
 
 
-   dan.setBoss(&man);
-   mike.setBoss(man);
-   alex.setBoss(man);
-   sarah.setBoss(man);
+   dan.setBoss(&man); //passing the address of an object man
+   mike.setBoss(&man);
+   alex.setBoss(&man);
+   sarah.setBoss(&man);
 
    dan.work(2);
    mike.work(2);
